@@ -27,7 +27,7 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := Dialer
-LOCAL_OPTIONAL_USES_LIBRARIES := wear-sdk org.apache.http.legacy androidx.window.extensions androidx.window.sidecar
+LOCAL_OPTIONAL_USES_LIBRARIES := wear-sdk androidx.window.extensions androidx.window.sidecar org.apache.http.legacy
 LOCAL_USES_LIBRARIES := com.google.android.dialer.support
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
